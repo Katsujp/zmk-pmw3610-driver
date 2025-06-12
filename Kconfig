@@ -157,7 +157,8 @@ config PMW3610_INVERT_SCROLL_Y
 
 config PMW3610_AUTOMOUSE_TIMEOUT_MS
   int "Amount of milliseconds the mouse layer will be active after using the trackball"
-  default 400
+  default 200
+  # default 400
 
 config PMW3610_MOVEMENT_THRESHOLD
     int "Movement threshold for automatic mouse layer activation"
